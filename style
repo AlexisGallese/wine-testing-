@@ -1,0 +1,60 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f4f1;
+  color: #333;
+}
+
+header {
+  background: #822f2f;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+.form-section, .reviews {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  background-color: #822f2f;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a03c3c;
+}
+
+.review-card {
+  background: white;
+  border-left: 5px solid #822f2f;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #eee;
+  font-size: 0.9rem;
+}
